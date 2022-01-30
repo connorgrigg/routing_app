@@ -10,7 +10,7 @@ delivered_packages = []
 undelivered_packages = []
 
 
-#  O(N) calculate distance to return ot hub
+#  O(N) calculate distance to return to hub
 def distance_between_two(current_location_id, destination_location_id):
     retvar = get_distance_in_column(current_location_id)[destination_location_id]
     return retvar
